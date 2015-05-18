@@ -1,0 +1,14 @@
+body {
+  background-color: #2900F8;
+}
+
+h1 {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 150px;
+  color: white;
+  font-family: 'Slabo 27px', serif;
+  text-shadow: 2px 2px 2px black;
+  font-size: 8em;
+}
