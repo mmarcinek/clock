@@ -9,7 +9,11 @@ hours = hours <= 9 ? '0' + hours : hours;
 minutes = minutes <= 9 ? '0' + minutes : minutes;
 seconds = seconds <= 9 ? '0' + seconds : seconds;
 
-document.querySelector('#clock').innerText = hours + ':' + minutes + ':' + seconds;
+var color ="#" + hours + minutes + seconds;
+
+document.querySelector('body').style.background = color;
+
+document.querySelector('#clock').innerText ="#" + hours + minutes + seconds;
 
 });
 
