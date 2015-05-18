@@ -13,6 +13,8 @@ var color ="#" + hours + minutes + seconds;
 
 document.querySelector('body').style.background = color;
 
+// https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/style was my jumping off point to help me hack together the DOM node above, with hacking.
+
 document.querySelector('#clock').innerText ="#" + hours + minutes + seconds;
 
 });

@@ -1,1 +1,1 @@
-## Welcome to my color clock
+## This clock displays time as a hexadecimal color.
